@@ -1,0 +1,20 @@
+@media only screen and (max-width: 992px) {
+  html {
+    overflow: hidden;
+  }
+
+  body {
+    /* width: 95%; */
+    overflow: hidden;
+    background: white;
+  }
+
+  .cards {
+    flex-direction: column;
+    overflow: hidden;
+  }
+
+  .tb-none {
+    display: none;
+  }
+}
