@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    color: white;
+    font-family: poppins;
+}
+
+body {
+    padding: 10px 5%;
+    background: #0D0D0D;
+    /* height: 100vh; */
+}
+
+section {
+    margin-bottom: 60px;
+    width: 95%;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 15px;
+}
+
+nav ul li {
+    list-style: none;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+.btn_outline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 15px 45px;
+    background: #171717;
+    border: 1px solid #262626;
+    border-radius: 50px;
+}
+
+.btn_outline:hover {
+    cursor: pointer;
+}
+
+header {
+    margin-bottom: 60px;
+}
+
+.hero {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+
+    padding: 90px 0 0 0;
+    position: relative;
+}
+
+.hero_images {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    width: 25%;
+}
+
+.hero_images_right {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+
+    width: 25%;
+}
+
+.left_mobile {
+    width: 150px;
+}
+
+.pointer {
+    width: 80px;
+}
+
+.hero_text {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h2 {
+    font-size: 64px;
+    font-weight: 500;
+    line-height: 120%;
+
+    background-image: linear-gradient(to top right, #666363, #ffffff);
+    /* Define your gradient colors */
+    -webkit-background-clip: text;
+    /* Clip the background to the text for WebKit browsers */
+    background-clip: text;
+    /* Clip the background to the text */
+    color: transparent;
+    /* Make the text transparent */
+    color: transparent;
+    /* Ensure text color is transparent */
+    background-size: 100%;
+    /* Cover the full width and height of the text */
+}
+
+
+.feint_text {
+    color: #7D7F78;
+}
+
+.interfaces {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.interface {
+    width: auto;
+    height: 200px;
+}
+
+.leaders {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+}
+
+.leaders_logo {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    gap: 35px;
+}
+
+.leaders_logo img {
+    height: 30px;
+}
